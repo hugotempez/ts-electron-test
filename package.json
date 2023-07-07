@@ -1,0 +1,19 @@
+{
+  "name": "ts-electron-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "25.2.0"
+  },
+  "dependencies": {
+    "typescript": "^5.1.6"
+  }
+}
